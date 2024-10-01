@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Finance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+</head>
+
+<body class="bg-gray-100">
+    <!-- ------- Header section ------- -->
+    <header class="sticky top-0 z-50">
+        <nav class="bg-white shadow-md sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <!-- Logo / Home Button -->
+                    <div class="flex-shrink-0 flex items-center">
+                        <a href="/">
+                            <img src="images/logo.png" alt="Logo" class="h-8 w-auto">
+                        </a>
+                    </div>
+
+                    <!-- Menu button for mobile view -->
+                    <div class="flex items-center sm:hidden">
+                        <button id="menu-toggle" class="text-gray-600 focus:outline-none focus:text-gray-800">
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16m-7 6h7" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Navbar Links -->
+                    <div class="hidden sm:flex sm:items-center space-x-8">
+                        <a href="/" class="text-gray-600 font-semibold hover:text-gray-800">Home</a>
+                        <a href="/about.html" class="text-gray-600 font-semibold hover:text-gray-800">About</a>
+                        <a href="/contact.html" class="text-gray-600 font-semibold hover:text-gray-800">Contact</a>
+                        <a href="/privacy-policy.html" class="text-gray-600 font-semibold hover:text-gray-800">Privacy
+                            Policy</a>
+                        <a href="/contact.html">
+                            <button
+                                class="bg-color1 text-white px-4 py-2 border-solid font-semibold hover:bg-pink-100 transition-all">Apply
+                                Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="sm:hidden hidden px-4 pb-4 space-y-4">
+                <a href="/" class="block text-gray-600 font-semibold hover:text-gray-800">Home</a>
+                <a href="/about.html" class="block text-gray-600 font-semibold hover:text-gray-800">About</a>
+                <a href="/contact.html" class="block text-gray-600 font-semibold hover:text-gray-800">Contact</a>
+                <a href="/privacy-policy.html" class="block text-gray-600 font-semibold hover:text-gray-800">Privacy
+                    Policy</a>
+                <a href="/contact.html">
+                    <button
+                        class="marg-top bg-color1 text-white px-4 py-2 border-solid font-semibold hover:bg-pink-100 transition-all">Apply
+                        Now</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ------- Main section ------- -->
+    <main>
+        <div class="flex flex-col text-center w-full mb-10 mt-[40px]">
+            <h1 class="text-3xl font-bold title-font text-gray-900">Contact US</h1>
+        </div>
+        <section
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 container mx-auto flex items-center justify-between text-gray-600 body-font mb-[100px] relative">
+            <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div
+                    class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map"
+                        marginheight="0" marginwidth="0" scrolling="no" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d91707.20361614892!2d77.27416401805259!3d28.631288751238063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1727798176446!5m2!1sen!2sin"
+                        style="filter: grayscale(1) contrast(1.2) opacity(0.6);"></iframe>
+                    <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                        <div class="lg:w-1/2 px-6">
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                            <p class="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
+                        </div>
+                        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                            <a class="text-indigo-500 leading-relaxed">example@email.com</a>
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                            <p class="leading-relaxed">123-456-7890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 p-3">
+                    <form id="contact-form">
+                        <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+                        <div class="relative mb-4">
+                            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                            <input type="text" id="name" name="name"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+
+                        <div class="relative mb-4">
+                            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                            <input type="email" id="email" name="email"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <div class="relative mb-4">
+                            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                            <textarea id="message" name="message"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send
+                            Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ------- Footer section ------- -->
+    <footer class="max-w-7xl mx-auto text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/3 md:w-1/2 sm:w-1/2 w-full px-8 mb-[30px]">
+              <img src="images/logo.png" alt="Logo" class="h-16 w-auto mb-3">
+              <p>
+                A MoneyFinance website offers easy access to various loan options like car, home, student, credit card loans etc, with competitive rates, and quick approvals for financial convenience.
+              </p>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-1/2 px-4 lg:ml-[100px] ml-[0%]">
+              <h2 class="title-font font-bold text-gray-900 tracking-widest text-sm mb-3">LIST OF LOANS</h2>
+              <nav class="list-none mb-10">
+                <li class="mb-1">
+                  <a class="text-gray-600 hover:text-gray-800">Home Loan</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-gray-600 hover:text-gray-800">Student Loan</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-gray-600 hover:text-gray-800">Car Loan</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-gray-600 hover:text-gray-800">Medical Loan</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-gray-600 hover:text-gray-800">Business Loan</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-1/2 px-4">
+              <h2 class="title-font font-bold text-gray-900 tracking-widest text-sm mb-3">OTHER LINKS</h2>
+              <nav class="list-none mb-10">
+                <li class="mb-1">
+                  <a href="/" class="text-gray-600 hover:text-gray-800">Home</a>
+                </li>
+                <li class="mb-1">
+                  <a href="/about.html" class="text-gray-600 hover:text-gray-800">About US</a>
+                </li>
+                <li class="mb-1">
+                  <a href="/contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                </li>
+                <li class="mb-1">
+                  <a href="/privacy-policy.html" class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="py-[40px] text-center">
+            <p class="text-[16px] text-color2 sm:ml-6 sm:mt-0 mt-4">© 2024 MoneyFinance.com</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <!-- script  -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("YOUR_USER_ID"); // Replace with your User ID from EmailJS
+        })();
+    </script>
+
+    <script type="text/javascript">
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Send the form data using EmailJS
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+                .then(function () {
+                    alert('Message sent successfully!');
+                }, function (error) {
+                    alert('Failed to send message, please try again.');
+                    console.error('Failed to send message:', error);
+                });
+        });
+    </script>
+
+</body>
+
+</html>
+
+
+<!-- https://www.emailjs.com/ -->
